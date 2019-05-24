@@ -1,0 +1,10 @@
+Available maps:
+koth_ultiduo_r_b7
+mge_bball_v2
+mge_dueling_v1_fix1
+mge_oihguv_sucks_a12
+mge_training_v8_beta4b
+ultiduo_baloo_v2
+ultiduo_grove_b4
+ultiduo_gullywash_b2
+ultiduo_seclusion_b3

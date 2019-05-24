@@ -1,0 +1,14 @@
+[Unit]
+Description=MGE Team Fortress 2 server
+
+[Service]
+Nice=-19
+User=tf2user
+Group=tf2user
+Type=simple
+Restart=always
+RestartSec=20
+ExecStart=/bin/sh /home/tf2user/tf2servers/mge/run.sh
+
+[Install]
+WantedBy=multi-user.target
