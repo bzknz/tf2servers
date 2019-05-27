@@ -98,6 +98,7 @@ rm medicstats.zip
 # SupStats2
 cd ~/tf2servers/mix
 wget http://sourcemod.krus.dk/supstats2.zip
+unzip supstats2.zip
 mv supstats2.smx tf2/tf/addons/sourcemod/plugins/
 rm supstats2.zip
 
@@ -186,7 +187,7 @@ tar -C tf2/tf -xzf mmsource-1.10.7-git968-linux.tar.gz
 rm mmsource-1.10.7-git968-linux.tar.gz
 
 # SourceMod
-cd ~/tf2servers/mix
+cd ~/tf2servers/mge
 wget https://sm.alliedmods.net/smdrop/1.9/sourcemod-1.9.0-git6275-linux.tar.gz
 tar -C tf2/tf -xzf sourcemod-1.9.0-git6275-linux.tar.gz
 rm sourcemod-1.9.0-git6275-linux.tar.gz
@@ -194,17 +195,13 @@ cd tf2/tf/addons/sourcemod/plugins/
 mv nextmap.smx disabled/
 mv funvotes.smx disabled/
 mv funcommands.smx disabled/
-ln -s ~/tf2servers/mix/tf2/tf/cfg/mapcycle.txt ~/tf2servers/mix/tf2/tf/addons/sourcemod/configs/adminmenu_maplist.ini
+ln -s ~/tf2servers/mge/tf2/tf/cfg/mapcycle.txt ~/tf2servers/mge/tf2/tf/addons/sourcemod/configs/adminmenu_maplist.ini
 
 # MGEMod
-cd ~/tf2servers/mge
-wget https://codeload.github.com/Lange/MGEMod/zip/master
-unzip master
-cp MGEMod-master/maps/* tf2/tf/maps/
-cp -r MGEMod-master/addons/* tf2/tf/addons/
-rm -R MGEMod-master/
-rm master
-cd tf2/tf/maps
+cd ~/tf2servers/mge/tf2/tf
+wget https://github.com/Lange/MGEMod/releases/download/v2.0.10/mgemod.zip
+unzip mgemod.zip
+cd maps
 wget http://fakkelbrigade.eu/maps/mge_oihguv_sucks_a12.bsp
 
 # NativeVotes
@@ -230,9 +227,9 @@ wget http://fakkelbrigade.eu/maps/ultiduo_seclusion_b3.bsp
 ## Service files
 
 ```bash
-sudo cp ./pub/tf2pub.service /etc/systemd/system/tf2pub.service
-sudo cp ./mix/tf2mix.service /etc/systemd/system/tf2mix.service
-sudo cp ./mge/tf2mge.service /etc/systemd/system/tf2mge.service
+sudo cp ~/tf2servers/pub/tf2pub.service /etc/systemd/system/tf2pub.service
+sudo cp ~/tf2servers/mix/tf2mix.service /etc/systemd/system/tf2mix.service
+sudo cp ~/tf2servers/mge/tf2mge.service /etc/systemd/system/tf2mge.service
 sudo systemctl daemon-reload
 sudo systemctl enable tf2pub.service
 sudo systemctl start tf2pub.service
