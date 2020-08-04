@@ -163,15 +163,14 @@ rm etf2l_configs.zip
 
 # Custom maps
 cd tf2/tf/maps
-wget http://fakkelbrigade.eu/maps/cp_cardinal_rc1a.bsp
-wget http://fakkelbrigade.eu/maps/cp_follower.bsp
-wget http://fakkelbrigade.eu/maps/cp_granary_pro_rc8.bsp
-wget http://fakkelbrigade.eu/maps/cp_logjam_rc10a.bsp
-wget http://fakkelbrigade.eu/maps/cp_prolands_rc2t.bsp
-wget http://fakkelbrigade.eu/maps/cp_propaganda_b15.bsp
-wget http://fakkelbrigade.eu/maps/cp_reckoner_rc4a.bsp
-wget http://fakkelbrigade.eu/maps/koth_bagel_rc2a.bsp
-wget http://fakkelbrigade.eu/maps/koth_product_rcx.bsp
+wget https://dl.serveme.tf/maps/cp_granary_pro_rc8.bsp
+wget https://dl.serveme.tf/maps/cp_prolands_rc2p.bsp
+wget https://dl.serveme.tf/maps/cp_reckoner_rc6.bsp
+wget https://dl.serveme.tf/maps/cp_villa_b15.bsp
+wget https://dl.serveme.tf/maps/koth_product_rcx.bsp
+wget https://steph.anie.dev/files/tf/maps/koth_clearcut_b15c.bsp
+wget https://dl.serveme.tf/maps/cp_logjam_rc12f.bsp
+wget https://dl.serveme.tf/maps/koth_bagel_fall_b7.bsp
 ```
 
 ## MGE/Ultiduo server setup
