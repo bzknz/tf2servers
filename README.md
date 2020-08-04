@@ -30,15 +30,15 @@ cd ..
 ```bash
 # MetaMod
 cd ~/tf2servers/pub
-wget https://mms.alliedmods.net/mmsdrop/1.10/mmsource-1.10.7-git968-linux.tar.gz
-tar -C tf2/tf -xzf mmsource-1.10.7-git968-linux.tar.gz
-rm mmsource-1.10.7-git968-linux.tar.gz
+wget https://mms.alliedmods.net/mmsdrop/1.10/mmsource-1.10.7-git971-linux.tar.gz
+tar -C tf2/tf -xzf mmsource-1.10.7-git971-linux.tar.gz
+rm mmsource-1.10.7-git971-linux.tar.gz
 
 # SourceMod
 cd ~/tf2servers/pub
-wget https://sm.alliedmods.net/smdrop/1.9/sourcemod-1.9.0-git6275-linux.tar.gz
-tar -C tf2/tf -xzf sourcemod-1.9.0-git6275-linux.tar.gz
-rm sourcemod-1.9.0-git6275-linux.tar.gz
+wget https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6492-linux.tar.gz
+tar -C tf2/tf -xzf sourcemod-1.10.0-git6492-linux.tar.gz
+rm sourcemod-1.10.0-git6492-linux.tar.gz
 cd tf2/tf/addons/sourcemod/plugins
 mv nextmap.smx disabled/
 mv funvotes.smx disabled/
@@ -58,15 +58,15 @@ curl -JLO "https://forums.alliedmods.net/attachment.php?attachmentid=156415&d=14
 ```bash
 # MetaMod
 cd ~/tf2servers/mix
-wget https://mms.alliedmods.net/mmsdrop/1.10/mmsource-1.10.7-git968-linux.tar.gz
-tar -C tf2/tf -xzf mmsource-1.10.7-git968-linux.tar.gz
-rm mmsource-1.10.7-git968-linux.tar.gz
+wget https://mms.alliedmods.net/mmsdrop/1.10/mmsource-1.10.7-git971-linux.tar.gz
+tar -C tf2/tf -xzf mmsource-1.10.7-git971-linux.tar.gz
+rm mmsource-1.10.7-git971-linux.tar.gz
 
 # SourceMod
 cd ~/tf2servers/mix
-wget https://sm.alliedmods.net/smdrop/1.9/sourcemod-1.9.0-git6275-linux.tar.gz
-tar -C tf2/tf -xzf sourcemod-1.9.0-git6275-linux.tar.gz
-rm sourcemod-1.9.0-git6275-linux.tar.gz
+wget https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6492-linux.tar.gz
+tar -C tf2/tf -xzf sourcemod-1.10.0-git6492-linux.tar.gz
+rm sourcemod-1.10.0-git6492-linux.tar.gz
 cd tf2/tf/addons/sourcemod/plugins/
 mv nextmap.smx disabled/
 mv funvotes.smx disabled/
@@ -83,9 +83,6 @@ rm -R SOAP-TF2DM-master/
 rm master
 # Map spawn points (they might exist in a later update of SOAP-TF2DM)
 cd tf2/tf/addons/sourcemod/configs/soap/
-cp cp_reckoner_rc3.cfg cp_reckoner_rc4a.cfg
-cp cp cp_prolands_b6.cfg cp_prolands_rc2t.cfg
-cp koth_product_rc9.cfg koth_product_rcx.cfg
 cp cp_propaganda_b14.cfg cp_propaganda_b15.cfg
 
 # MedicStats
@@ -182,15 +179,15 @@ wget http://fakkelbrigade.eu/maps/koth_product_rcx.bsp
 ```bash
 # MetaMod
 cd ~/tf2servers/mge
-wget https://mms.alliedmods.net/mmsdrop/1.10/mmsource-1.10.7-git968-linux.tar.gz
-tar -C tf2/tf -xzf mmsource-1.10.7-git968-linux.tar.gz
-rm mmsource-1.10.7-git968-linux.tar.gz
+wget https://mms.alliedmods.net/mmsdrop/1.10/mmsource-1.10.7-git971-linux.tar.gz
+tar -C tf2/tf -xzf mmsource-1.10.7-git971-linux.tar.gz
+rm mmsource-1.10.7-git971-linux.tar.gz
 
 # SourceMod
 cd ~/tf2servers/mge
-wget https://sm.alliedmods.net/smdrop/1.9/sourcemod-1.9.0-git6275-linux.tar.gz
-tar -C tf2/tf -xzf sourcemod-1.9.0-git6275-linux.tar.gz
-rm sourcemod-1.9.0-git6275-linux.tar.gz
+wget https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6492-linux.tar.gz
+tar -C tf2/tf -xzf sourcemod-1.10.0-git6492-linux.tar.gz
+rm sourcemod-1.10.0-git6492-linux.tar.gz
 cd tf2/tf/addons/sourcemod/plugins/
 mv nextmap.smx disabled/
 mv funvotes.smx disabled/
